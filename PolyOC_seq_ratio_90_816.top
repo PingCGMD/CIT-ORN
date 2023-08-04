@@ -1,0 +1,11 @@
+#include "martini_3.0.b.3.2.itp"
+
+#include "PolyOC_seq_ratio_90_816.itp"
+
+[ system ]
+; name
+PolyOC_seq_ratio_90_816
+
+[ molecules ]
+; name        number
+PolyOC_seq_ratio_90_816 	 1
