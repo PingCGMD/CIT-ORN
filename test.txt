@@ -1,0 +1,19 @@
+
+#generate PEG itp-file
+polyply gen_itp -f PEO.martini.3.itp -seq PEO:50 -o PEO_50.itp -name PEO
+
+#vi OH_link.ff
+
+#vi OH_end.itp
+
+polyply gen_itp -f PEO_50.itp OH_end.itp OH_link.ff -seq PEO:1 OHend:1 -o PEG_50_OH.itp -name PEGOH
+
+vi 2kda_mapped.itp
+
+change the atom name
+
+polyply gen_itp -f  PEG_50_OH.itp 2kda_mapped.itp -seq 2kda:1 PEGOH:1 -o PEG_2kda.itp -name PEG_2kda
+
+
+
+
