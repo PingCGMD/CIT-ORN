@@ -1,0 +1,11 @@
+[ link ]
+[ molmeta ]
+by_atom_id true
+[ bonds ]
+1     233   1   0.25000  7000 {"group": "link"} ;MA-ORN
+233   234   1   0.28000  7000 {"group": "link"} ;MA-PEO
+[ angles ]
+235    234   233  2    123  50 {"group": "link"} ; EO-EO-MA
+234    233   1    2    132  50 {"group": "link"} ; EO-MA-BB
+233    1     2    2    100  50 {"group": "link"} ; MA-BB-SC1
+233    1     3    2    160  15 {"group": "link"} ; MA-BB-BB
